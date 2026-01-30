@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../widget/info_field.dart';
 import '../widget/option_tile.dart';
 
