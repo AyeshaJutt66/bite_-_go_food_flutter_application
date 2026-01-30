@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import '../widget/info_field.dart';
 import '../widget/option_tile.dart';
+import 'menupage.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -46,11 +48,15 @@ class ProfilePage extends StatelessWidget {
                         ),
                       ),
                       // HEADER ICONS
-                      const Positioned(
+                      Positioned(
                         top: 40,
                         left: 16,
-                        child: Icon(Icons.arrow_back, color: Colors.white),
-                      ),
+                        child: IconButton(
+                          icon: const Icon(Icons.arrow_back),
+                          onPressed: () {
+                            Get.offAll(() => MenuPage());
+                          },
+                        ),),
                       const Positioned(
                         top: 40,
                         right: 16,
