@@ -52,7 +52,7 @@ class ProfilePage extends StatelessWidget {
                         top: 40,
                         left: 16,
                         child: IconButton(
-                          icon: const Icon(Icons.arrow_back),
+                          icon: const Icon(Icons.arrow_back,color: Colors.white,),
                           onPressed: () {
                             Get.offAll(() => MenuPage());
                           },
