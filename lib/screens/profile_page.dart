@@ -20,7 +20,6 @@ class ProfilePage extends StatelessWidget {
           children: [
             Column(
               children: [
-                // HEADER
                 Container(
                   height: headerHeight,
                   width: double.infinity,
@@ -47,7 +46,6 @@ class ProfilePage extends StatelessWidget {
                           colorBlendMode: BlendMode.modulate,
                         ),
                       ),
-                      // HEADER ICONS
                       Positioned(
                         top: 40,
                         left: 16,
@@ -66,7 +64,6 @@ class ProfilePage extends StatelessWidget {
                   ),
                 ),
 
-                // WHITE CARD
                 Container(
                   width: double.infinity,
                   decoration: const BoxDecoration(
@@ -75,7 +72,7 @@ class ProfilePage extends StatelessWidget {
                     BorderRadius.vertical(top: Radius.circular(30)),
                   ),
                   padding: EdgeInsets.only(
-                    top: avatarSize / 2 + 20, // leave space for avatar overlap
+                    top: avatarSize / 2 + 20,
                     left: 20,
                     right: 20,
                     bottom: 40,
@@ -98,7 +95,6 @@ class ProfilePage extends StatelessWidget {
                       const SizedBox(height: 30),
                       Row(
                         children: [
-                          // EDIT TEXT BUTTON (black)
                           Expanded(
                             child: ElevatedButton(
                               onPressed: () {},
@@ -124,8 +120,6 @@ class ProfilePage extends StatelessWidget {
                           ),
 
                           const SizedBox(width: 15),
-
-                          // LOG OUT BUTTON (white)
                           Expanded(
                             child: ElevatedButton(
                               onPressed: () {},
@@ -159,7 +153,6 @@ class ProfilePage extends StatelessWidget {
               ],
             ),
 
-            // AVATAR (on top of header and card)
             Positioned(
               top: headerHeight - avatarSize / 2,
               left: MediaQuery.of(context).size.width / 2 - avatarSize / 2,

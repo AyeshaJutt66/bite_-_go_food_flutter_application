@@ -8,7 +8,7 @@ class SpicySliderWidget extends StatefulWidget {
 }
 
 class _SpicySliderWidgetState extends State<SpicySliderWidget> {
-  double spiceLevel = 0.0; // 0 = Mild, 1 = Hot
+  double spiceLevel = 0.0;
 
   @override
   Widget build(BuildContext context) {

@@ -67,7 +67,6 @@ class _DetailScreenState extends State<DetailScreen> {
 
                     const SizedBox(height: 20),
 
-                    // Title
                     Text(
                       "${widget.item.title} ${widget.item.subtitle}",
                       style: const TextStyle(
@@ -110,7 +109,6 @@ class _DetailScreenState extends State<DetailScreen> {
               ),
             ),
 
-            // Bottom Buttons
             Padding(
               padding: const EdgeInsets.fromLTRB(20, 10, 20, 20),
               child: Row(

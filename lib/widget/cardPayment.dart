@@ -4,7 +4,7 @@ Widget paymentCard({
   required bool selected,
   required String cardType,
   required String cardNumber,
-  required String logo, // asset path
+  required String logo,
 }) {
   return Container(
     padding: const EdgeInsets.all(16),
@@ -35,7 +35,6 @@ Widget paymentCard({
 
         const SizedBox(width: 15),
 
-        /// CARD DETAILS
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -60,7 +59,6 @@ Widget paymentCard({
 
         const Spacer(),
 
-        /// RADIO BUTTON
         Icon(
           selected
               ? Icons.radio_button_checked

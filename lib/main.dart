@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'controllers/favorite_controller.dart';
 
 void main() {
-  Get.put(FavoriteController()); // register globally
+  Get.put(FavoriteController());
   runApp(const MyApp());
 }
 

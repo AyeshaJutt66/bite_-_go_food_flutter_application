@@ -33,7 +33,6 @@ class CartPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
 
-            /// Order Summary
             const Text(
               "Order summary",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
@@ -64,7 +63,6 @@ class CartPage extends StatelessWidget {
 
             const SizedBox(height: 30),
 
-            /// Payment Methods
             const Text(
               "Payment methods",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
@@ -90,7 +88,6 @@ class CartPage extends StatelessWidget {
 
             const SizedBox(height: 15),
 
-            /// Save Card Checkbox
             Row(
               children: [
                 Checkbox(
@@ -104,7 +101,6 @@ class CartPage extends StatelessWidget {
 
             const Spacer(),
 
-            /// Bottom Buttons
             Row(
               children: [
                 Expanded(

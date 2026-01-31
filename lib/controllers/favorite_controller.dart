@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import '../widget/item.dart'; // your Item model
+import '../widget/item.dart';
 
 class FavoriteController extends GetxController {
   var favorites = <Item>[].obs;
